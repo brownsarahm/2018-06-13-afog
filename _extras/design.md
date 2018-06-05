@@ -2,6 +2,7 @@
 layout: page
 title: Background and Design
 permalink: /design/
+root: ../
 ---
 There are a few things you need to know in order to understand why we
 do things the way we do.  Some of them are specific to GitHub, rather
