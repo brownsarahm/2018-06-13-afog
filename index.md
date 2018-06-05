@@ -89,7 +89,11 @@ eventbrite: 46724485193         # optional: alphanumeric key for Eventbrite regi
 {% endcomment %}
 {% if page.latlng %}
 <p id="where">
+
   <strong>Where:</strong>
+
+  Co-hosted by the Algorithmic Fairness and Opacity Group and the Berkeley Institute for Data Science
+
   {{page.address}}.
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
